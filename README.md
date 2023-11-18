@@ -7,3 +7,4 @@
 - add -p localport:remoteport after docker run to map the ports of the container to those of you local machine
 - docker exec -it [CONTAINER_ID] /bin/sh to enter the container's terminal
 - once in a container's terminal, CTRL+P followed by CTRL+Q to exit the terminal without stopping the container. CTRL+C and CTRL+D exit and kill the container.
+- to publish an image to docker hub, we change the image's name to start with our user name with docker tag image-name user-name/image-name, and the we do docker push image-name
